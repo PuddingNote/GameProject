@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93a5aeec40b662e40a9deb95a9312f32, type: 3}
+  m_Name: PrototypeSpriteCatalog
+  m_EditorClassIdentifier: SlimeExperiment.Runtime::SlimeExperiment.UI.PrototypeSpriteCatalog
+  cardFrameSprite: {fileID: -950741918, guid: 656c772f21ea3894d9b3ad23bdf42919, type: 3}
+  relicFrameSprite: {fileID: 21300000, guid: ae8c945ddfa2ba244ba49624632094c6, type: 3}
+  infoFrameSprite: {fileID: 21300000, guid: 9272fce3f0c76e940840c6e5390e2b0e, type: 3}
+  characterSprites:
+  - AttributeType: 0
+    Sprite: {fileID: 21300000, guid: 622ae113b3c809c47ae5e823e928d220, type: 3}
+  - AttributeType: 1
+    Sprite: {fileID: 21300000, guid: 2577492076fb6804783bff17c005250b, type: 3}
+  - AttributeType: 2
+    Sprite: {fileID: 21300000, guid: c4eda02b2ed21894f8f8235c7cf980e8, type: 3}
+  - AttributeType: 3
+    Sprite: {fileID: 21300000, guid: 87d397d9d0faa7148ac5492cd454b4ed, type: 3}
+  - AttributeType: 4
+    Sprite: {fileID: 21300000, guid: 7ab45fea060feaf4fb89d0fed2ee6016, type: 3}
+  - AttributeType: 5
+    Sprite: {fileID: 21300000, guid: 379aa0e6f2bcc0043aa4eecfa149db97, type: 3}
+  characterHandSprites:
+  - AttributeType: 0
+    Sprite: {fileID: 21300000, guid: c0edd72b1d14e644892fc83f6b875fa5, type: 3}
+  - AttributeType: 1
+    Sprite: {fileID: 21300000, guid: f3c24bd5b5ecca540a9754bfbd0c591f, type: 3}
+  - AttributeType: 2
+    Sprite: {fileID: 21300000, guid: a2814755d660785418d672027658a2b6, type: 3}
+  - AttributeType: 3
+    Sprite: {fileID: 21300000, guid: 0383d406b6b5f1b42b42227230ee2104, type: 3}
+  - AttributeType: 4
+    Sprite: {fileID: 21300000, guid: f798c404ff8bd30408879daebafc0eda, type: 3}
+  - AttributeType: 5
+    Sprite: {fileID: 21300000, guid: 3c10efcdc84b4b24fa51a0ed416e7b30, type: 3}
+  monsterSprites:
+  - AttributeType: 0
+    Sprite: {fileID: 21300000, guid: 72abe7283ebdca640b16ba476372879a, type: 3}
+  - AttributeType: 1
+    Sprite: {fileID: 21300000, guid: 5be4f226a1539ba4099f63092ea6f2b8, type: 3}
+  - AttributeType: 2
+    Sprite: {fileID: 21300000, guid: 18f0cf88dfa432d44b01823b49f695cf, type: 3}
+  - AttributeType: 3
+    Sprite: {fileID: 21300000, guid: bdf3cd7f2a6ef8846a38b04e97d824ee, type: 3}
+  - AttributeType: 4
+    Sprite: {fileID: 21300000, guid: 8805c9f08812ee8448d290149960a430, type: 3}
+  - AttributeType: 5
+    Sprite: {fileID: 21300000, guid: f51511abea809524882cefbe32e67046, type: 3}
+  relicSprites:
+  - RelicId: relic_cotton_fist
+    Sprite: {fileID: 21300000, guid: e7a3743209fa8684abde36aef97a68e9, type: 3}
+  - RelicId: relic_pencil
+    Sprite: {fileID: 21300000, guid: f1e6fbf08c621ad4f9328dec6c66a334, type: 3}
+  - RelicId: relic_bat
+    Sprite: {fileID: 21300000, guid: 5e9c61ee46c630c4585563ba49669863, type: 3}
+  - RelicId: relic_slime_mucus
+    Sprite: {fileID: 21300000, guid: 6297a5becccf08746ac08984eee7350c, type: 3}
+  - RelicId: relic_bear
+    Sprite: {fileID: 21300000, guid: 35b451c791dc70040b407059edcfa7e0, type: 3}
+  - RelicId: relic_jelly
+    Sprite: {fileID: 21300000, guid: eaaf27b5fe3e69b4d97ae82656706b66, type: 3}
+  - RelicId: relic_clockwork
+    Sprite: {fileID: 21300000, guid: 2915b6ed1f2ecca449ecc95d4ea57a44, type: 3}
+  - RelicId: relic_pinwheel
+    Sprite: {fileID: 21300000, guid: bfacd45b2e66531409c9d2e662bccb5c, type: 3}
+  - RelicId: relic_soft_jelly
+    Sprite: {fileID: 21300000, guid: 5394604736ebed64485dfc25baaf9fa9, type: 3}
+  - RelicId: relic_stardust
+    Sprite: {fileID: 21300000, guid: e2b161736c313594e8307065e7e30956, type: 3}
+  - RelicId: relic_bomb
+    Sprite: {fileID: 21300000, guid: cdb304f2d3d8cf4468b56aeeb60f1104, type: 3}
+  - RelicId: relic_broken_toy
+    Sprite: {fileID: 21300000, guid: 8f33fc4813f065141a1bfd542d3a62da, type: 3}
+  - RelicId: relic_coward_cloak
+    Sprite: {fileID: 21300000, guid: b9dc4e0ff61e84246a87b650d8cf74fe, type: 3}
+  - RelicId: relic_surprise_box
+    Sprite: {fileID: 21300000, guid: 7709d966385d5a54c88f76adf3fdfd2b, type: 3}
+  - RelicId: relic_combo_balloon
+    Sprite: {fileID: 21300000, guid: a5beaea6b914e4743b26472b042284dd, type: 3}
+  - RelicId: relic_ogre_mask
+    Sprite: {fileID: 21300000, guid: b9ea161e3f3dde048a4ba5ce93b4a604, type: 3}
+  - RelicId: relic_sticky_sword
+    Sprite: {fileID: 21300000, guid: 14b82a24dfc168148b1c1c65a68a87ac, type: 3}
+  - RelicId: relic_badge
+    Sprite: {fileID: 21300000, guid: 96ab6dec9e835b648b3637435d3ef2c1, type: 3}
+  - RelicId: relic_bouncy_ball
+    Sprite: {fileID: 21300000, guid: 832515c58bb34c54ebbfc8da852a79d0, type: 3}
+  - RelicId: relic_bubble
+    Sprite: {fileID: 21300000, guid: 32818ee79ca0a7a458eeb7b686146a75, type: 3}
+  - RelicId: relic_piggy_bank
+    Sprite: {fileID: 21300000, guid: e4813aa3f6689404fabe08074ac21bc3, type: 3}
+  - RelicId: relic_rainbow
+    Sprite: {fileID: 21300000, guid: e639b27eec5a08140b94fb78a60fee19, type: 3}
+  - RelicId: relic_clear_cloak
+    Sprite: {fileID: 21300000, guid: 88709690bb450bb469422df9e8ae1d78, type: 3}
+  - RelicId: relic_gray_mucus
+    Sprite: {fileID: 21300000, guid: 0b7fba09addbcfe4985859b154c06934, type: 3}
+  - RelicId: relic_cursed_hammer
+    Sprite: {fileID: 21300000, guid: 639995733fee7c644a131d4422f61e1c, type: 3}
+  - RelicId: relic_melted_icecream
+    Sprite: {fileID: 21300000, guid: fb9c589e98a55c24f822283e1cc43520, type: 3}
+  - RelicId: relic_skateboard
+    Sprite: {fileID: 21300000, guid: 292b584444f74fa42aa8e607b11f3541, type: 3}
+  - RelicId: relic_twin_cherry
+    Sprite: {fileID: 21300000, guid: 38467276d45b90544a7408d867e724f1, type: 3}
+  - RelicId: relic_even_dice
+    Sprite: {fileID: 21300000, guid: fe94bb6f25b8126489d6469c6dbb9591, type: 3}
+  - RelicId: relic_odd_dice
+    Sprite: {fileID: 21300000, guid: d49a3634872f2b94584ce007e85853e3, type: 3}
+  - RelicId: relic_strange_cloak
+    Sprite: {fileID: 21300000, guid: b4c69a17c38acbe4198ea3b3a65333e9, type: 3}
+  - RelicId: relic_jelly_bomb
+    Sprite: {fileID: 21300000, guid: 5612cfa60e4c4404f9897d70a0ce723e, type: 3}
+  - RelicId: relic_cursed_shield
+    Sprite: {fileID: 21300000, guid: 441c577b25d57f04b93ebd40ff7eba48, type: 3}
+  - RelicId: relic_mirror
+    Sprite: {fileID: 21300000, guid: 599f88173e066a54bbcccb82080af406, type: 3}
